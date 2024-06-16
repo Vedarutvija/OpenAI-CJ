@@ -12,7 +12,7 @@ app.config['SESSION_TYPE'] = 'filesystem'
 Session(app)
 
 # Set your OpenAI API key
-os.environ["OPENAI_API_KEY"] = "sk-cloudjune-H0RLPEiyk8tHQri0KPArT3BlbkFJM61NxbpwCOhnOJVflWQP"
+os.environ["OPENAI_API_KEY"] = ""
 # Path to the existing SQLite database
 db_path = "chroma_vectors.db"
 
